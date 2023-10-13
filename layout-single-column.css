@@ -3014,11 +3014,11 @@ body.embed .button.logo-button:hover,
   }
 
   .layout-single-column .column-link[href="/lists"] {
-    order: 12;
+    order: 10;
   }
 
   .layout-single-column .column-link[href="/bookmark_categories"] {
-    order: 12;
+    order: 10;
   }
 
   /* stylelint-disable-next-line no-duplicate-selectors */
