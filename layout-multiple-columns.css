@@ -2943,47 +2943,67 @@ body.embed .button.logo-button:hover,
 
 
   /* Order of the side nav items */
-  .layout-multiple-columns .navigation-panel__logo {
+  .layout-single-columns .navigation-panel__logo {
     order: 1;
   }
 
-  .layout-multiple-columns .column-link[href="/home"] {
+  .layout-single-columns .column-link[href="/home"] {
     order: 2;
   }
 
-  .layout-multiple-columns .column-link[href="/notifications"] {
+  .layout-single-columns .column-link[href="/notifications"] {
     order: 3;
   }
 
-  .layout-multiple-columns .column-link[href="/explore"] {
+  .layout-single-columns .column-link[href="/explore"] {
     order: 4;
   }
 
-  .layout-multiple-columns .column-link[href="/public/local"] {
+  .layout-single-columns .column-link[href="/public/local"] {
     order: 5;
   }
 
-  .layout-multiple-columns .column-link[href="/public"] {
+  .layout-single-columns .column-link[href="/public"] {
     order: 6;
   }
 
-  .layout-multiple-columns .column-link[href="/conversations"] {
+  .layout-single-columns .column-link[href="/public/local/fixed"] {
+    order: 6;
+  }
+
+  .layout-single-columns .column-link[href="/tags/kmyblue"] {
+    order: 6;
+  }
+
+  .layout-single-columns .column-link[href="/conversations"] {
     order: 7;
   }
 
-  .layout-multiple-columns .column-link[href='/follow_requests'] {
+  .layout-single-columns .column-link[href='/follow_requests'] {
     order: 8;
   }
 
-  .layout-multiple-columns .column-link[href="/bookmarks"] {
+  .layout-single-columns .column-link[href="/bookmarks"] {
     order: 9;
   }
 
-  .layout-multiple-columns .column-link[href="/favourites"] {
+  .layout-single-columns .column-link[href="/favourites"] {
     order: 10;
   }
 
-  .layout-multiple-columns .column-link[href="/lists"] {
+  .layout-single-columns .column-link[href="/antennasw"] {
+    order: 10;
+  }
+
+  .layout-single-columns .column-link[href="/circles"] {
+    order: 10;
+  }
+
+  .layout-single-columns .column-link[href="/lists"] {
+    order: 12;
+  }
+
+  .layout-single-columns .column-link[href="/bookmark_categories"] {
     order: 12;
   }
 

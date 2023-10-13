@@ -2981,6 +2981,14 @@ body.embed .button.logo-button:hover,
     order: 6;
   }
 
+  .layout-single-column .column-link[href="/public/local/fixed"] {
+    order: 6;
+  }
+
+  .layout-single-column .column-link[href="/tags/kmyblue"] {
+    order: 6;
+  }
+
   .layout-single-column .column-link[href="/conversations"] {
     order: 7;
   }
@@ -2997,7 +3005,19 @@ body.embed .button.logo-button:hover,
     order: 10;
   }
 
+  .layout-single-column .column-link[href="/antennasw"] {
+    order: 10;
+  }
+
+  .layout-single-column .column-link[href="/circles"] {
+    order: 10;
+  }
+
   .layout-single-column .column-link[href="/lists"] {
+    order: 12;
+  }
+
+  .layout-single-column .column-link[href="/bookmark_categories"] {
     order: 12;
   }
 
